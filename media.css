@@ -1,0 +1,122 @@
+@media screen and (max-width:1000px) {
+    .nav-parent{
+        flex-direction: column;
+        
+    }
+    .menu{
+        display: flex;
+    }
+    .icons{
+        align-self: flex-end;
+        width: 300px;
+    }
+    .parent-div{
+        flex-direction: column;
+    }
+    .bar{
+        width: 100%;
+    }
+    .menubar{
+display: none;
+    }
+    .body1{
+        padding: 10px;
+       }
+       .body4-box1{
+        width: 46%;
+        margin: 2%;
+    }
+    .footerbox1{
+        flex-basis: 46%;
+        margin: 2%;
+      }
+}
+
+@media screen and (max-width:880px) {
+.product1box{
+    flex-basis: 45%;
+}
+}
+
+
+@media screen and (max-width:600px) {
+    .product1box{
+        flex-basis: 100%;
+       }
+       .body1{
+        padding: 10px;
+       }
+       .body3{
+        height: max-content;
+        text-align: center;
+        
+    } 
+    
+}
+@media screen and (max-width:600px) {
+    .body2{
+        padding: 10px;
+    }
+    .body2animchild{
+        width: 500%;
+        animation: move2 15s linear infinite;
+    }
+    @keyframes move2 {
+        0%{
+            margin-left: 0;
+        }
+        17%{
+            margin-left: 0;
+        }
+        20%{
+            margin-left: -100%;
+        }
+        37%{
+            margin-left: -100%;
+        }
+        40%{
+            margin-left: -200%;
+        }
+        57%{
+            margin-left: -200%;
+        }
+        60%{
+            margin-left: -300%;
+        }
+        77%{
+            margin-left: -300%;
+        }  
+        80%{
+            margin-left: -400%;
+        }
+        100%{
+            margin-left: -400%;
+        }
+    }
+    .body2animbox1{
+        width: 96%;
+    }
+}
+@media screen and (max-width:500px) {
+    .child-1{
+        width: 100%;
+    }
+    .body4-box1{
+        width: 94%;
+        margin: 3%;
+    }
+    .body5-input{
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    .body5-input input{
+        width: 100%;
+    }
+    .body5-heading{
+        flex-direction: column;
+    }
+    .footerbox1{
+        flex-basis: 96%;
+        margin: 2%;
+      }
+}
